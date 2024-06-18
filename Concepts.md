@@ -58,5 +58,33 @@ ReactDOM.render(
 */
   document.getElementById("root")
 );
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// ATTRIBUTES
+const img = "https://picsum.photos/200";
+reactDom.render(
+  <div>
+    <h1 contentEditable="true" spellCheck="false">
+      My favourite food
+    </h1>
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIqQj7_XYNe9u-w6IOyVyR5KXUo7DI2US_vw&s"
+      alt="Ramyeon"
+    />
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHVE61TcD04Sxjadcu68idNbC13y1Sw3PUtw&s"
+      alt="Takoyaki"
+    />
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwTu9QjEDUIJsXUf8EYbdHVX39tBFl8WgSJg&s"
+      alt="full Plate"
+    />
+    <img src={img} alt="random" />
+  </div>,
+  document.getElementById("root")
+);
+
+// Generally, we write the whole HTML global attributes in lowercase but when it comes to be write HTML attributes in JSX we write in camelcase otherwise it'll not work.
+// e.g. contenteditable="true" in HTML file, but contentEditable="true" in JSX file.
+
 
 ```
