@@ -50,7 +50,7 @@ ReactDOM.render(
     <h1>
       Hello {name} {Lastname}!
     </h1>
-    <h1>Hello {`${name} ${Lastname}`}!</h1>
+    <h1>Hello {`${name} ${Lastname}`}!</h1> // 3rd method
     <p>My lucky number is {Math.floor(Math.random() * 10)}</p>
   </div>,
   /* 
