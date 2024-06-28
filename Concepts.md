@@ -4,7 +4,7 @@ import React from "react"; // better way
 // var ReactDOM = require("react-dom");
 import ReactDOM from "react-dom";
 
-// This is how it long it takes to write in pure JS
+// This is how long it takes to write Hello World using pure JS
 // var h1 = document.createElement("h1");
 // h1.innerHTML = "Hello World";
 // document.getElementById("root").appendChild(h1);
